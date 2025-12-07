@@ -1,0 +1,23 @@
+{
+  "name": "playwright-demoqa-tests",
+  "version": "1.0.0",
+  "description": "Playwright test automation for DemoQA",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:register": "playwright test register-student",
+    "test:delete": "playwright test delete-book"
+  },
+  "keywords": ["playwright", "testing", "automation"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.10.1",
+    "dotenv": "^16.4.7"
+  }
+}
